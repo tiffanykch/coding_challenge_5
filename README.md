@@ -1,1 +1,1 @@
-### Welome to my JavaScript Objects, Arrays, and Functions Coding Challenge!
+### Welcome to my JavaScript Objects, Arrays, and Functions Coding Challenge!
