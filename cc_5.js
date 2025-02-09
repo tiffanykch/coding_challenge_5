@@ -93,3 +93,11 @@ let customers = ["Alice", "Bob", "Charlie", "David"]
 
 //Locate "Charlie" using .find() method and log result to the console
 console.log(customers.find(customer => customer === "Charlie"))
+
+//TASK 8: FUNCTION DECLARATION - TAX CALCULATION
+function calculateTax(amount, taxRate) {
+    return amount * taxRate
+}
+
+//Log function output using template literal
+console.log(`Calculated Tax: $${calculateTax(100, 0.15)}`)
