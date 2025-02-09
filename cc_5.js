@@ -32,3 +32,23 @@ let order = {
 
 //Calling method to display order details
 order.displayOrder()
+
+//TASK 3: ARRAY MANIPULATION - SHOPPING CART
+
+//Declare array containing three product names
+let cartItems = ["Bananas", "Apples", "Strawberries"];
+
+//Add new product to array
+cartItems.push("Cabbage")
+
+//Remove last item in array
+cartItems.pop()
+
+//Add item in the beginning of array
+cartItems.unshift("Tomatoes");
+
+//Remove first item in array
+cartItems.shift()
+
+//Log final array to the console
+console.log("Cart Items:", cartItems)
