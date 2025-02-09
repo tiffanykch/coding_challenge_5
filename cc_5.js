@@ -95,6 +95,8 @@ let customers = ["Alice", "Bob", "Charlie", "David"]
 console.log(customers.find(customer => customer === "Charlie"))
 
 //TASK 8: FUNCTION DECLARATION - TAX CALCULATION
+
+//Create function to calculate tax using amount and tax rate
 function calculateTax(amount, taxRate) {
     return amount * taxRate
 }
